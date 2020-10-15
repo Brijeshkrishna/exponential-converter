@@ -25,13 +25,13 @@ def E(number_string):
             for i in range(0, int(power)):
                 mins.insert(0, "0")
             mins.insert(1, ".")
-            return listtostr(mins)
+            return float(listtostr(mins))
 
         except:
             plus = str(split[1]).split("+")
             power = plus[1]
             plus_number = float(number) * float(power)
-            return plus_number
+            return float(plus_number)
 
     except:
         return number_string
