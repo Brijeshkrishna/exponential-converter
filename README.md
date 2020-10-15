@@ -23,4 +23,4 @@ HOW exponential-converter works
     If the number is { 652.22e+05 } It equivalent to =>> 652.22*(10**(-05)) =>> 652.22*0.00001 =>> 0.0065222 .
     
     BUT in python after 4 decimal points it changes to Exponential form.It means if u calculate 51/100000 it shows 0.00051 but 51/100000 is 5.1e-05.
-    therefor it difficult to convert . IN  Exponential-converter it split's the number ,then convert ,then change to string
+    therefor it difficult to convert . IN  Exponential-converter it split's the number ,then convert ,then change to float.
